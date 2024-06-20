@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "92027582046",
+    "project_id": "readlingo-7352a",
+    "storage_bucket": "readlingo-7352a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92027582046:android:2fcc9847360f9055f626cf",
+        "android_client_info": {
+          "package_name": "com.ximoli.readlingo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3z7ohKcpd98PvpwHWv-9PcvtLYtRahEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
