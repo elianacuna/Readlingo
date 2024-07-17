@@ -22,9 +22,9 @@
 
     <style name="Theme.App.Starting" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/white</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_neurafruit</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_readlingo</item>
         <item name="windowSplashScreenAnimationDuration">1000</item>
-        <item name="postSplashScreenTheme">@style/Base.Theme.Neurafruit</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.Readlingo</item>
 
         <item name="colorPrimaryDark">@color/background</item>
         <item name="android:windowLightStatusBar">true</item>
