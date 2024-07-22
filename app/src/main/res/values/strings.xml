@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Readlingo</string>
-    <string name="terms_policy_main">by continuing you agree to Readlingo\'s Terms of Use. Read our Privacy Policy</string>
+    <string name="terms_policy_main">by continuing you agree to Readlingo\'s Terms \nof Use. Read our Privacy Policy</string>
+    <string name="title_main">Continue to sign up for free</string>
+    <string name="log_in">Log in</string>
+    <string name="or">O</string>
 </resources>

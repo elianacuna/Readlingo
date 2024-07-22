@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<resources>
 
-</PreferenceScreen>
+    <dimen name="logo_main">30dp</dimen>
+    <dimen name="title_top">30dp</dimen>
+    <dimen name="text_size_title">20dp</dimen>
+    <dimen name="materialButtonWidth">300dp</dimen>
+    <dimen name="materialButtonHeight">55dp</dimen>
+    <dimen name="text_size_terms">14dp</dimen>
+
+</resources>

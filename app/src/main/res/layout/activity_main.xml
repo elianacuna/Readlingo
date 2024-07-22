@@ -7,13 +7,149 @@
     tools:context=".MainActivity">
 
 
+    <ImageView
+        android:layout_width="@dimen/logo_main"
+        android:layout_height="@dimen/logo_main"
+        android:src="@drawable/ic_readlingo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/logoIv"
+        />
 
     <TextView
-        android:layout_width="330dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/terms_policy_main"
-        android:gravity="center"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"/>
+        android:text="@string/title_main"
+        android:layout_below="@id/logoIv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/title_top"
+        android:textSize="@dimen/text_size_title"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/titleTv"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_below="@id/titleTv"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/title_top"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/relative1"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="@dimen/materialButtonWidth"
+            android:layout_height="@dimen/materialButtonHeight"
+            android:backgroundTint="@color/bottom"
+            android:textColor="@color/bottom_text"
+            android:text="@string/log_in"
+            android:textAllCaps="false"
+            app:cornerRadius="10dp"
+            android:id="@+id/loginBtn"
+            android:layout_centerHorizontal="true"
+            />
+
+        <RelativeLayout
+            android:layout_width="@dimen/materialButtonWidth"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/loginBtn"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:id="@+id/viewRl">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@color/stroke"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@id/textView"
+                android:layout_marginEnd="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/or"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/textView"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_toEndOf="@id/textView"
+                android:layout_centerVertical="true"
+                android:background="@color/stroke"
+                android:layout_marginStart="10dp"/>
+
+        </RelativeLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="@dimen/materialButtonWidth"
+            android:layout_height="@dimen/materialButtonHeight"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            app:strokeColor="#C1C1C1"
+            app:strokeWidth="1dp"
+            app:cornerRadius="10dp"
+            android:layout_below="@id/viewRl"
+            android:layout_centerHorizontal="true"
+            android:text="Inicia sesión con Google"
+            app:icon="@drawable/googleg_standard_color_18"
+            app:iconGravity="textStart"
+            app:iconTint="@null"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:id="@+id/googleBtn"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="@dimen/materialButtonWidth"
+            android:layout_height="@dimen/materialButtonHeight"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            app:strokeColor="#C1C1C1"
+            app:strokeWidth="1dp"
+            app:cornerRadius="10dp"
+            android:layout_below="@id/googleBtn"
+            android:layout_centerHorizontal="true"
+            android:text="Create account with email"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:id="@+id/RegisterBtn"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="@dimen/materialButtonWidth"
+            android:layout_height="@dimen/materialButtonHeight"
+            android:layout_below="@+id/RegisterBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:text="Continue another way"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:id="@+id/anotherBtn"
+            />
+
+        <TextView
+            android:layout_width="@dimen/materialButtonWidth"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_policy_main"
+            android:layout_below="@id/anotherBtn"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:textSize="14dp"
+            />
+
+
+
+    </RelativeLayout>
 
 </RelativeLayout>

@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+
+    <dimen name="logo_main">80dp</dimen>
+    <dimen name="title_top">50dp</dimen>
+    <dimen name="text_size_title">40dp</dimen>
+    <dimen name="materialButtonWidth">600dp</dimen>
+    <dimen name="materialButtonHeight">80dp</dimen>
+    <dimen name="text_size_terms">22dp</dimen>
+
+</resources>
